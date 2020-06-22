@@ -29,7 +29,7 @@ ApplicationWindow {
         plugin: Plugin {
             name: "osm"
             PluginParameter { name: "osm.useragent"; value: "cyclecomputer.mikeasoft.com 0.1" }
-            PluginParameter { name: "osm.mapping.providersrepository.address"; value: "http://cyclecomputer.mikeasoft.com" }
+            PluginParameter { name: "osm.mapping.providersrepository.address"; value: "http://www.mywebsite.com/osm_repository" }
             PluginParameter { name: "osm.mapping.highdpi_tiles"; value: true }
         }
         activeMapType: supportedMapTypes[1] // Cycle Map
