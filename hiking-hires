@@ -1,0 +1,10 @@
+{
+    "UrlTemplate" : "http://a.tile.thunderforest.com/outdoors/%z/%x/%y@2x.png?apikey=YOUR_API_KEY",
+    "ImageFormat" : "png",
+    "QImageFormat" : "Indexed8",
+    "ID" : "thf-hike-hires",
+    "MaximumZoomLevel" : 20,
+    "MapCopyRight" : "<a href='http://www.thunderforest.com/'>Thunderforest</a>",
+    "DataCopyRight" : "<a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+    "Timestamp" : "2017-03-13"
+}
