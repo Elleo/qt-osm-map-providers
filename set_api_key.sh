@@ -6,5 +6,5 @@ fi
 echo "Setting API key to $1"
 for file in cycle cycle-hires hiking hiking-hires night-transit night-transit-hires satellite street street-hires terrain terrain-hires transit transit-hires
 do
-    sed -i s/$1/g $file
+    sed -i "s/YOUR_API_KEY/$1/g" $file
 done
