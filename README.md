@@ -31,7 +31,7 @@ ApplicationWindow {
             PluginParameter { name: "osm.mapping.providersrepository.address"; value: "http://www.mywebsite.com/osm_repository" }
             PluginParameter { name: "osm.mapping.highdpi_tiles"; value: true }
         }
-        activeMapType: supportedMapTypes[1] // Cycle Map
+        activeMapType: supportedMapTypes[1] // Cycle Map provided by Thunderforest
     }
     
 }
