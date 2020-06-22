@@ -1,6 +1,6 @@
 # Qt OSM Map Providers Repository Creator
 
-This repository provides scripts to easily setup a Qt OSM Map providers repository to allow use of tile servers that require an API key
+This repository provides scripts to easily setup a Qt OSM Map providers repository to allow use of tile servers that require an API key (including support for high DPI tiles)
 
 ## Usage
 
@@ -28,7 +28,6 @@ ApplicationWindow {
         zoomLevel: 14
         plugin: Plugin {
             name: "osm"
-            PluginParameter { name: "osm.useragent"; value: "cyclecomputer.mikeasoft.com 0.1" }
             PluginParameter { name: "osm.mapping.providersrepository.address"; value: "http://www.mywebsite.com/osm_repository" }
             PluginParameter { name: "osm.mapping.highdpi_tiles"; value: true }
         }
