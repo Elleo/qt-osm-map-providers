@@ -2,6 +2,8 @@
 
 This repository provides scripts to easily setup a Qt OSM Map providers repository to allow use of tile servers that require an API key (including support for high DPI tiles)
 
+A full write up of the method used here can be found at: https://blog.mikeasoft.com/2020/06/22/qt-qml-maps-using-the-osm-plugin-with-api-keys/
+
 ## Usage
 
 1. First obtain an API key from https://www.thunderforest.com/docs/apikeys/
